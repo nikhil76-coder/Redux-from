@@ -1,0 +1,29 @@
+.stepOne-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stepOne-input,
+  .stepOne-select,
+  .stepOne-button {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .stepOne-button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .stepOne-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
